@@ -22,6 +22,55 @@ The simple contribution instructions are:
 4. Create a Pull Request with the PR Template given.
 5. All the best for your Hacktoberfest Journey!
 
+### Files to be Included
+
+Your submission should include:
+
+1. One Supporting JavaScript File
+2. One Supporting CSS File
+3. HTML File for Landing Page: `index.html`
+4. HTML File for Claim Page Success: `claim-s.html`
+5. HTML File for Claim Page Failure: `claim-f.html`
+6. HTML File for Verify Page Success: `verify-s.html`
+7. HTML File for Verify Page Failure: `verify-f.html`
+
+In case if you are planning to multiple submissions, please create a subfolder inside your Username directory. These both cases might give you an idea:
+
+**Only One Submission**
+
+```text
+praveenscience/
+├── index.html
+├── claim-s.html
+├── claim-f.html
+├── verify-s.html
+├── verify-f.html
+├── script.js
+└── styles.js
+```
+
+**Multiple Submissions**
+
+```text
+praveenscience/
+├── first/
+│   ├── index.html
+│   ├── claim-s.html
+│   ├── claim-f.html
+│   ├── verify-s.html
+│   ├── verify-f.html
+│   ├── script.js§
+│   └── styles.js
+└── second/
+    ├── index.html
+    ├── claim-s.html
+    ├── claim-f.html
+    ├── verify-s.html
+    ├── verify-f.html
+    ├── script.js§
+    └── styles.js
+```
+
 ## Contributors List
 
 If you're not there, I am not there. Thank you for making this repository great! ❤️
