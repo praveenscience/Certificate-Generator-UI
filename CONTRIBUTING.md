@@ -32,7 +32,7 @@ praveenscience/
 ├── verify-s.html
 ├── verify-f.html
 ├── script.js
-└── styles.js
+└── styles.css
 ```
 
 **Multiple Submissions**
@@ -45,14 +45,14 @@ praveenscience/
 │   ├── claim-f.html
 │   ├── verify-s.html
 │   ├── verify-f.html
-│   ├── script.js§
-│   └── styles.js
+│   ├── script.js
+│   └── styles.css
 └── second/
     ├── index.html
     ├── claim-s.html
     ├── claim-f.html
     ├── verify-s.html
     ├── verify-f.html
-    ├── script.js§
-    └── styles.js
+    ├── script.js
+    └── styles.css
 ```
