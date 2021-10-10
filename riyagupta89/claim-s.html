@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="HackACode 2021 by AnyOneCanCo.de: Claim / Verify your eCertificates!" />
+    <meta name="description" content="HackACode 2021 aims at helping students hone their technical skills as well as learn to work as a team." />
+    <meta name="keywords" content="HackACode 2021 by AnyOneCanCo.de, Open Source, PraveenScience, Praveen Kumar" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Praveen Kumar Purushothaman" />
+    <link rel="shortcut icon" href="https://i.stack.imgur.com/C6ACJ.png" />
+    <title>Certificate Generator UI - Cool & Creative Dev Space</title>
+    <meta property="og:title" content="HackACode 2021 by AnyOneCanCo.de: Claim / Verify your eCertificates!" />
+    <meta property="og:site_name" content="HackACode 2021 by AnyOneCanCo.de: Claim / Verify your eCertificates!" />
+    <meta property="og:url" content="https://hackacode2021-cert.anyonecanco.de/" />
+    <meta property="og:description" content="HackACode 2021 aims at helping students hone their technical skills as well as learn to work as a team." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.stack.imgur.com/C6ACJ.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/scripts.js"></script>
+    <script>
+      $(function () {
+        $(".js-hide").hide().removeClass("js-hide");
+        $(".action-btn").click(function (e) {
+          e.preventDefault();
+          var href = $(this).attr("href");
+          if ($("form:visible").length > 0) {
+            $("form:visible").slideUp(function () {
+              $(href).slideDown();
+            });
+          } else {
+            $(href).slideDown();
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark d-block mb-3">
+      <a href="/" class="navbar-brand mb-0 h1 text-center d-block">Cool & Creative Dev Space -  Claim / Verify your eCertificates!</a>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-4 text-center">
+          <img class="img-thumbnail" src="https://i.imgur.com/q9rhpUth.png" alt="HackACode 2021 by AnyOneCanCo.de: Claim / Verify your eCertificates!" />
+        </div>
+        <div class="col-12 col-md-6 text-center my-4">
+          <h2 class="text-success">Success! We found your certificate!</h2>
+          <div class="py-4 px-0 px-lg-4">
+            <div class="text-left instructions">
+              VAR_INSTRUCTIONS
+            </div>
+            <form><a href="./VAR_CODE.png" class="btn btn-primary btn-lg">Get My Certificate</a></form>
+          </div>
+
+          <h2 class="text-white">Stay Connected!! More to come soon..</h2>
+          <p>
+            <a class="btn btn-primary mr-2" href="https://hackacode.anyonecanco.de/" target="_blank">
+              <img src="https://i.imgur.com/bwnhObS.png" alt="Event Info" />
+              <span class="d-inline-block">Event Info</span>
+            </a>
+            <br/>
+            <br/>
+            <a class="btn btn-outline-primary mr-2" href="https://discord.gg/wFdXpYRauy" target="_blank">
+              <img src="https://i.imgur.com/C3zWJ57.jpg" alt="Discord" />
+              <span class="d-inline-block">Join our Discord Server</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
