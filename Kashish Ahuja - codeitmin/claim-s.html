@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kashish Ahuja"/>
+    <title>Certificate Generator | Claim - S</title>     
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/6c7c7565ca.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Local -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js"></script>
+
+    <script>
+        $(function () {
+            $(".js-hide").hide().removeClass("js-hide");
+            $(".action-btn").click(function (e) {
+                e.preventDefault();
+                var href = $(this).attr("href");
+                if ($("form:visible").length > 0) {
+                $("form:visible").slideUp(function () {
+                    $(href).slideDown();
+                });
+                } else {
+                $(href).slideDown();
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="header text-center ">
+            <h1 class="p-3">Certificate Generator UI</h1>
+        </div>
+
+        <!-- Main section -->
+        <section class="container about">
+            <div class="row">
+
+                <!-- Left panel -->
+                <div class="col-12 col-lg-6">
+                    <img src="/assets/images/certificate.jpg" alt="">
+                </div>
+
+                <!-- Right Panel -->
+                <div class="col-12 col-lg-6 about-text text-center mt-5 pt-5">
+                    <h2 class="heading pb-3">Yayy 🎉 We found your certificate!!</h2>
+                    <a href="#" class="btn btn-default m-5">Get Certificate</a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <h6 class="text-center"> Certificate Generator UI | Designed with &#10084; by Kashish Ahuja | codeitmin </h6>
+    </div>
+
+</body>
+</html>
