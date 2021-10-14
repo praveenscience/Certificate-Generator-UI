@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --bgpurple:#D089FF;
+    --lightpurple:#A92FFC;
+    --white: #ffffff;
+}
+
+/************* Starting CSS  **************/
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+.btn.btn-default {
+    background-color: var(--bgpurple);
+    color: black;
+    margin: 10px;
+}
+
+.btn-link {
+    font-size: 18px;
+    color: #1c1e20;
+    font-weight: 400 !important;
+    border-bottom: 2px solid #333;
+    padding-bottom: 6px !important;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--lightpurple);
+    font-weight: 400 !important;
+    border-bottom: none;
+    padding-bottom: 6px !important;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+.heading {
+    color: var(--lightpurple);
+}
+
+/************* Index  *************/
+
+/* Header */
+.header
+{
+    background-color: var(--bgpurple);
+}
+
+.js-hide 
+{
+    display: none;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    background-color: var(--bgpurple);
+}
+
+/************* About *************/
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Left Panel */
+.about img {
+    width: 100%;
+}
+
+/* Right Panel */
+.about a {
+    color: var(--lightpurple);
+}
+
+.about .about-text {
+    padding-left: 60px;
+}
+
+.about .about-text h3 {
+    border-bottom: 1px solid black;
+}
+
+.about .about-codeitmin {
+    padding-top: 50px;
+}
+
+@media (max-width: 992px)
+{
+    .about .about-text {
+        padding: 0px 25px;
+        padding-top: 30px;
+    }
+}
+
