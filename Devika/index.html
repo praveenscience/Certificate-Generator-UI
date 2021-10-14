@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -8,7 +8,7 @@
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
-    <meta name="author" content="Anushka Raj" />
+    <meta name="author" content="Devika Varshney" />
     <link rel="shortcut icon" href="https://i.stack.imgur.com/C6ACJ.png" />
     <title>Certificate Generator UI - Cool & Creative Dev Space</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
@@ -62,49 +62,6 @@
                 <a href="#verify" class="btn btn-outline-success btn-lg action-btn">Verify eCertificate</a>
               </div>
 
-              <div class="col-12">
-                <form method="post" class="mx-0 my-4 mx-lg-4 js-hide" id="claim">
-                  <h3>Claim Certificate</h3>
-                  <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email..." />
-                  </div>
-                  <div class="form-group">
-                    <label for="number">WhatsApp last 10 digits</label>
-                    <input type="number" class="form-control" id="number" name="number" placeholder="Enter your WhatsApp number... Last 10 digits...">
-                  </div>
-                  <div class="form-group">
-                    <label for="number">Certificate type</label>
-                    <select name="type" class="form-control" id="type">
-                      <option value="" selected="selected" disabled="disabled">Select a type...</option>
-                      <option value="PART">Participant</option>
-                      <option value="ORGN">Organizer</option>
-                    </select>
-                  </div>
-                  <input type="hidden" name="instance" value="hackacode2021-cert.anyonecanco.de" />
-                  <input type="hidden" name="action" value="Claim Certificate" />
-                  <input type="submit" value="Claim Certificate" class="btn btn-primary mb-2" />
-                </form>
-                <form method="post" class="mx-0 my-4 mx-lg-4 js-hide" id="verify">
-                  <h3>Verify Certificate</h3>
-                  <div class="form-group">
-                    <label for="certid">Certificate ID</label>
-                    <input type="text" class="form-control" id="certid" name="certid" placeholder="Enter the certificate identifier..." />
-                  </div>
-                  <div class="form-group">
-                    <label for="number">Certificate type</label>
-                    <select name="type" class="form-control" id="vertype">
-                      <option value="" selected="selected" disabled="disabled">Select a type...</option>
-                      <option value="PART">Participant</option>
-                      <option value="ORGN">Organizer</option>
-                    </select>
-                  </div>
-                  <input type="hidden" name="instance" value="hackacode2021-cert.anyonecanco.de" />
-                  <input type="hidden" name="action" value="Verify Certificate" />
-                  <input type="submit" value="Verify Certificate" class="btn btn-primary mb-2" />
-                </form>
-              </div>
-
             </div>
           </div>
         </div>
@@ -128,6 +85,57 @@
     </div>
   </div>
 
+  <!-- Form -->
+  <div class="div3">
+
+    <!-- Claim Certification form -->
+    <form method="post" class="mx-0 my-4 mx-lg-4 js-hide" id="claim">
+      <h3 class="form1-heading">Claim Certificate</h3>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email..." />
+      </div>
+      <div class="form-group">
+        <label for="number">WhatsApp last 10 digits</label>
+        <input type="number" class="form-control" id="number" name="number" placeholder="Enter your WhatsApp number... Last 10 digits...">
+      </div>
+      <div class="form-group">
+        <label for="number">Certificate type</label>
+        <select name="type" class="form-control" id="type">
+          <option value="" selected="selected" disabled="disabled">Select a type...</option>
+          <option value="PART">Participant</option>
+          <option value="ORGN">Organizer</option>
+        </select>
+      </div>
+      <input type="hidden" name="instance" value="hackacode2021-cert.anyonecanco.de" />
+      <input type="hidden" name="action" value="Claim Certificate" />
+      <input type="submit" value="Claim Certificate" class="btn btn-dark mb-2 btn1-form" />
+      <hr>
+    </form>
+
+    <!-- Verification Form -->
+    <form method="post" class="mx-0 my-4 mx-lg-4 js-hide" id="verify">
+      <h3 class="form2-heading">Verify Certificate</h3>
+      <div class="form-group">
+        <label for="certid">Certificate ID</label>
+        <input type="text" class="form-control" id="certid" name="certid" placeholder="Enter the certificate identifier..." />
+      </div>
+      <div class="form-group">
+        <label for="number">Certificate type</label>
+        <select name="type" class="form-control" id="vertype">
+          <option value="" selected="selected" disabled="disabled">Select a type...</option>
+          <option value="PART">Participant</option>
+          <option value="ORGN">Organizer</option>
+        </select>
+      </div>
+      <input type="hidden" name="instance" value="hackacode2021-cert.anyonecanco.de" />
+      <input type="hidden" name="action" value="Verify Certificate" />
+      <input type="submit" value="Verify Certificate" class="btn btn-dark mb-2 btn1-form" />
+      <hr>
+    </form>
+  </div>
+
+ 
   <!-- certificate -->
     <div class="div2">
       <div class="download">
