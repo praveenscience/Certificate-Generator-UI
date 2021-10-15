@@ -1,9 +1,10 @@
 $(function () {
     $("#claim").submit(function (e) {
-      e.preventDefault();
+        e.preventDefault();
     });
+
     $("#verify").submit(function (e) {
-      e.preventDefault();
+        e.preventDefault();
     });
-  });
+});
   
