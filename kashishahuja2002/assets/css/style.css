@@ -20,7 +20,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -62,13 +62,11 @@ p {
 /************* Index  *************/
 
 /* Header */
-.header
-{
+.header {
   background-color: var(--bgpurple);
 }
 
-.js-hide 
-{
+.js-hide {
   display: none;
 }
 
@@ -108,8 +106,7 @@ p {
   padding-top: 50px;
 }
 
-@media (max-width: 992px)
-{
+@media (max-width: 992px) {
   .about .about-text {
     padding: 0px 25px;
     padding-top: 30px;
