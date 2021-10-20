@@ -1,0 +1,14 @@
+.jumbo {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: right;
+    height: 50vh;
+}
+
+.jumbo p {
+    margin-top: 5vw;
+    text-align: right;
+}
