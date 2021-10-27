@@ -1,6 +1,6 @@
 # Certificate Generator UI
 
-This is a repository of Creative UI Designs for Certificate Generator application. There are totally four pages in this and all those four pages are self contained - which means, all the HTML, CSS and JavaScripts are inside the same file or at least, the same directory.
+This is a repository of Creative UI Designs for Certificate Generator application. There are four pages in total and all of them are self contained - which means, all the HTML, CSS and JavaScripts are inside the same file or at least, the same directory.
 
 ![Hacktoberfest 2021 Included](https://i.imgur.com/Ei5gGAFh.png)
 
@@ -10,7 +10,7 @@ The User Interfaces feature with these qualities:
 
 * Completely Responsive
 * Code Properly Indented with ESLint & Prettier
-* Look Really Good
+* Looks Really Good and User Friendly (smooth functioning)
 
 ## Contribution Instructions
 
@@ -34,7 +34,7 @@ Your submission should include:
 6. HTML File for Verify Page Success: `verify-s.html`
 7. HTML File for Verify Page Failure: `verify-f.html`
 
-In case if you are planning to multiple submissions, please create a subfolder inside your Username directory. These both cases might give you an idea:
+In case if you are planning for multiple submissions, please create a subfolder inside your Username directory. These both cases might give you an idea:
 
 **Only One Submission**
 
