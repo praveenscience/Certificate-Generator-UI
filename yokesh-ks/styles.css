@@ -1,0 +1,165 @@
+body {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    background: #f6f9ff;
+    color: #444444;
+}
+
+nav{
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    background-color: #fff;
+}
+
+.head-text{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .head-text{
+        white-space: normal;
+        font-size: 16px;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-1{
+background: linear-gradient(to left, #0575E6, #00F260);
+color: white;
+border: none;
+}
+
+.btn-1:hover{
+    background: linear-gradient(to right, #0575E6, #00F260);
+    color: white;
+    border: none;
+}
+
+.btn-2{
+background: linear-gradient(to right, #f7b733, #fc4a1a);
+color: white;
+    border: none;
+}
+
+.btn-2:hover{
+    background: linear-gradient(to left, #f7b733, #fc4a1a);
+    color: white;
+        border: none;
+}
+
+a {
+    color: #012970;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #1b56bd;
+    text-decoration: none;
+}
+
+a svg,a img {
+    margin-bottom: 5px;
+    display: block;
+}
+
+a.btn-primary {
+    font-weight: 600;
+}
+
+a.btn img {
+    height: 2em;
+    width: auto;
+    display: inline-block;
+    margin: -6px 3px -3px -3px;
+    vertical-align: middle;
+}
+
+a.btn span {
+    margin-top: 2px;
+}
+
+.disabled-cursor {
+    display: inline-block;
+    cursor: not-allowed;
+}
+
+.buttons {
+    display: flex;
+}
+
+.modal-header,.modal-footer {
+    padding: 10px;
+}
+
+.modal-header .modal-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.modal-header,.modal-footer {
+    padding: 10px;
+}
+
+.modal-header .modal-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.embed-container iframe,.embed-container object,.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.js-hide {
+    display: none;
+}
+
+form h3 {
+    margin-bottom: 15px;
+}
+
+form .form-group {
+    max-width: 450px;
+    margin: 0 auto 15px;
+}
